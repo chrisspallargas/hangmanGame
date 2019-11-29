@@ -1,36 +1,26 @@
 {
-  "name": "webpack_demo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "rimraf ./dist && webpack --config webpack.spec.config.js && webpack-dev-server --mode development --inline --config webpack.spec.config.js",
-    "start:dev": "rimraf ./dist && webpack --config webpack.config.js && webpack-dev-server --mode development",
-    "build": "webpack --mode production"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@babel/preset-env": "7.1.6",
-    "css-loader": "1.0.1",
-    "file-loader": "2.0.0",
-    "html-loader": "0.5.5",
-    "html-webpack-externals-plugin": "^3.8.0",
-    "html-webpack-plugin": "3.2.0",
-    "ignore-loader": "^0.1.2",
-    "mini-css-extract-plugin": "0.4.4",
-    "node-sass": "4.10.0",
-    "rimraf": "^2.6.3",
-    "sass-loader": "7.1.0",
-    "style-loader": "0.23.1",
-    "webpack": "4.25.1",
-    "webpack-cli": "3.1.2",
-    "webpack-dev-server": "3.1.10",
-    "webpack-jasmine-html-runner-plugin": "^0.9.0"
-  },
+  "name": "hangman-react",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "jasmine": "^3.3.1",
-    "jquery": "^3.3.1"
-  }
+    "node-sass": "^4.11.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "2.1.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
